@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Jo D'or</title>
+<meta name="description" content="About Jo D'or — Earth-to-Soul Fine Jewelry. The founder's story, and the philosophy behind the brand.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@300;400;500&family=Noto+Serif+TC:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav" style="position:absolute;text-shadow:none;">
+  <a href="index.html" class="nav-mark"><img src="img/logo-icon.png" alt="Jo D'or" style="filter:none;opacity:0.85;"></a>
+  <a href="index.html#signup" class="nav-eyebrow" style="color:var(--earth);">Join the Waitlist</a>
+</nav>
+
+<!-- ============ FOUNDER INTRO ============ -->
+<section class="about-hero">
+  <div class="about-media icon-mark"><img src="img/logo-icon.png" alt="Jo D'or — the O and wave mark"></div>
+  <div class="about-intro">
+    <div class="about-intro-inner fade-in">
+      <p class="eyebrow about-eyebrow">About Jo D'or</p>
+      <p class="about-title">Our Story</p>
+      <div class="about-body">
+        <p>
+          Jo D'or began the way most meaningful things do — quietly, after a
+          season of becoming.
+        </p>
+        <p>
+          I spent years in the jewelry world before I ever made
+          something of my own.
+        </p>
+        <p>
+          I trained at GIA, learned to read diamonds, and designed at a
+          renowned Hollywood jewelry house — close to the makers and benches
+          of Los Angeles' jewelry district.
+        </p>
+        <p>I knew gold.<br>I knew gemstones.</p>
+        <p>But it took longer to know what I wanted to say with them.</p>
+        <p>Jo D'or is my answer.</p>
+        <p>
+          I don't believe jewelry is a wish, or a way to manifest the life
+          you want.
+        </p>
+        <p>I believe it's proof.</p>
+        <p>Proof of a transformation that already happened.</p>
+        <p>
+          The version of you who survived something.<br>
+          Who grew quietly.<br>
+          Who found her way back to herself.
+        </p>
+        <p>That's who each piece is for.</p>
+        <p>
+          Real gold and natural gemstones, shaped slowly and worn with
+          intention.
+        </p>
+        <p>Not loud.<br>Not trend.</p>
+        <p>Just yours.</p>
+        <p>Something to hold the moment you became who you are.</p>
+      </div>
+      <p class="about-signature">For the woman she's become<br>— Zoe, Founder &amp; Designer</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PHILOSOPHY QUOTE ============ -->
+<section class="quote-block">
+  <div class="fade-in">
+    <p class="serif">Jewelry isn't a wish for who you might become.<br>It is proof of who you already are.</p>
+  </div>
+</section>
+
+<!-- ============ PILLARS ============ -->
+<section class="pillars">
+  <div class="pillars-head fade-in">
+    <p class="serif">Earth-to-Soul Fine Jewelry</p>
+  </div>
+  <div class="pillars-grid fade-in">
+    <div>
+      <p class="pillar-num">01</p>
+      <p class="pillar-title">Earth</p>
+      <p class="pillar-desc">14K and 18K solid gold. Stones chosen one at a time, GIA-trained eye to gem. What's real, made to last.</p>
+    </div>
+    <div>
+      <p class="pillar-num">02</p>
+      <p class="pillar-title">Soul</p>
+      <p class="pillar-desc">Each piece marks something already lived through — not a wish, a becoming already complete.</p>
+    </div>
+    <div>
+      <p class="pillar-num">03</p>
+      <p class="pillar-title">Woman</p>
+      <p class="pillar-desc">For the one who no longer needs convincing. She knows who she is. This is just the proof.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CREDENTIALS ============ -->
+<section class="credentials">
+  <div class="credentials-list fade-in">
+    <span>GIA Diamond Training</span>
+    <span>Years in Fine Jewelry</span>
+    <span>Los Angeles, CA</span>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="foot-wordmark"><img src="img/logo-wordmark.png" alt="Jo D'or Jewelry"></div>
+  <div>for every woman she's become</div>
+  <div class="foot-links">
+    <a href="index.html#signup">Join the Waitlist</a> &nbsp;·&nbsp;
+    <a href="https://instagram.com/jodor.jewelry" target="_blank">@jodor.jewelry</a>
+  </div>
+</footer>
+
+<script>
+  const faders = document.querySelectorAll('.fade-in');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('visible'); });
+  }, {threshold:0.15});
+  faders.forEach(f=>io.observe(f));
+</script>
+
+</body>
+</html>

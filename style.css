@@ -1,0 +1,490 @@
+  :root{
+    --ivory:#FAF8F4;
+    --stone:#EDEAE3;
+    --sand:#DAD2C5;
+    --leather:#8D7865;
+    --earth:#4E4237;
+    --gold:#C2A04E;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--ivory);
+    color:var(--earth);
+    font-family:'Poppins', sans-serif;
+    font-weight:300;
+    overflow-x:hidden;
+  }
+  img{display:block;width:100%;height:100%;object-fit:cover;}
+  section{position:relative;width:100%;}
+  .eyebrow{
+    font-size:0.68rem;
+    letter-spacing:0.32em;
+    text-transform:uppercase;
+  }
+
+  /* ---------- NAV ---------- */
+  .nav{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:1.6rem 6vw;
+    color:var(--ivory);
+    pointer-events:none;
+    text-shadow:0 1px 4px rgba(0,0,0,0.55), 0 1px 14px rgba(0,0,0,0.45);
+  }
+  .nav-mark{
+    font-family:'Marcellus', serif;
+    font-style:normal;
+    font-size:1.1rem;
+    letter-spacing:0.1em;
+    display:inline-flex;
+    align-items:center;
+  }
+  .nav-mark img{
+    height:38px;width:auto;display:block;
+    filter:brightness(0) invert(1);
+    opacity:0.95;
+  }
+  .nav-eyebrow{font-size:0.62rem;letter-spacing:0.28em;text-transform:uppercase;opacity:0.9;}
+  .nav-wordmark{
+    position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+    display:inline-flex;align-items:center;
+  }
+  .nav-wordmark img{
+    height:30px;width:auto;display:block;
+    filter:brightness(0) invert(1);
+    opacity:0.95;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    height:100vh;
+    min-height:560px;
+    position:relative;
+    display:flex;
+    align-items:flex-end;
+  }
+  .hero-img-wrap{position:absolute;inset:0;}
+  .hero-img-wrap img{object-position:center 35%;}
+  .hero-scrim{
+    position:absolute;inset:0;
+    background:
+      linear-gradient(115deg, rgba(30,22,16,0.62) 0%, rgba(30,22,16,0.20) 38%, rgba(30,22,16,0) 62%),
+      linear-gradient(180deg, rgba(30,22,16,0) 55%, rgba(30,22,16,0.55) 100%);
+  }
+  .hero-content{
+    position:relative;z-index:2;
+    color:var(--ivory);
+    padding:0 6vw 9vh;
+    max-width:30rem;
+  }
+  .hero-eyebrow{
+    color:var(--sand);
+    margin-bottom:1.1rem;
+  }
+  .hero-title{
+    font-family:'Marcellus', serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:clamp(1.9rem,5vw,2.9rem);
+    line-height:1.26;
+    letter-spacing:0.03em;
+    margin-bottom:0.6rem;
+  }
+  .hero-title-zh{
+    font-family:'Noto Serif TC', serif;
+    font-size:clamp(0.95rem,2.4vw,1.15rem);
+    letter-spacing:0.05em;
+    opacity:0.85;
+  }
+  .scroll-cue{
+    position:absolute;bottom:4vh;left:6vw;z-index:2;
+    width:1px;height:42px;
+    background:linear-gradient(to bottom, transparent, var(--gold) 60%, transparent);
+    animation:scrollPulse 2.2s ease-in-out infinite;
+  }
+  @keyframes scrollPulse{0%,100%{opacity:0.2;}50%{opacity:0.95;}}
+
+  /* ---------- GOLD WAVE DIVIDER ---------- */
+  .wave-divider{
+    height:13vh;
+    min-height:80px;
+    overflow:hidden;
+    position:relative;
+  }
+  .wave-divider img{
+    filter:saturate(1.04) brightness(1.02);
+    object-position:center 40%;
+  }
+  .wave-divider.flip img{transform:scaleX(-1);}
+  .wave-divider.softened .wave-overlay{
+    position:absolute;inset:0;
+    background:var(--ivory);
+    opacity:0.40;
+    pointer-events:none;z-index:1;
+  }
+  .wave-divider::before,
+  .wave-divider::after{
+    content:"";position:absolute;left:0;right:0;height:26px;pointer-events:none;z-index:2;
+  }
+  .wave-divider::before{top:0;background:linear-gradient(to bottom, var(--ivory), transparent);}
+  .wave-divider::after{bottom:0;background:linear-gradient(to top, var(--ivory), transparent);}
+  /* divider sitting on a non-ivory section fades to that section's color via inline override */
+
+  /* ---------- ESSENCE ---------- */
+  .essence{
+    background:var(--ivory);
+    padding:13vh 8vw;
+    text-align:center;
+  }
+  .essence-gold{
+    position:relative;
+    background-image:url('img/gold-wave-warm.jpg');
+    background-size:cover;
+    background-position:center;
+    padding:20vh 8vw;
+    overflow:hidden;
+  }
+  .essence-gold .essence-overlay{
+    position:absolute;inset:0;
+    background:var(--ivory);
+    opacity:0.78;
+    pointer-events:none;
+    z-index:1;
+  }
+  .essence-gold .essence-inner{
+    position:relative;
+    z-index:2;
+  }
+  .essence p.serif{
+    font-family:'Marcellus', serif;
+    font-style:normal;
+    font-size:clamp(1.4rem,3.6vw,2.1rem);
+    line-height:1.65;
+    max-width:36rem;
+    margin:0 auto 1.3rem;
+    color:var(--earth);
+  }
+  .essence p.zh{
+    font-family:'Noto Serif TC', serif;
+    font-size:clamp(0.92rem,2.3vw,1.05rem);
+    color:var(--leather);
+    letter-spacing:0.05em;
+  }
+
+  /* ---------- SIGNATURE SPLIT ---------- */
+  .signature{
+    display:flex;
+    flex-wrap:wrap;
+    background:var(--leather);
+  }
+  .sig-media{
+    flex:1 1 50%;
+    min-width:320px;
+    min-height:60vh;
+  }
+  .sig-text{
+    flex:1 1 50%;
+    min-width:320px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:var(--ivory);
+    padding:10vh 7vw;
+  }
+  .sig-inner{max-width:26rem;}
+  .sig-label{color:var(--sand);margin-bottom:1.4rem;}
+  .sig-title{
+    font-family:'Marcellus', serif;
+    font-style:normal;
+    font-size:clamp(1.9rem,4.6vw,2.7rem);
+    margin-bottom:0.4rem;
+  }
+  .sig-title-zh{
+    font-family:'Noto Serif TC', serif;
+    font-size:clamp(1.05rem,2.6vw,1.25rem);
+    opacity:0.85;
+    margin-bottom:1.8rem;
+  }
+  .sig-desc{
+    font-size:0.92rem;
+    line-height:1.95;
+    color:var(--stone);
+    margin-bottom:2.2rem;
+  }
+  .sig-badge{
+    display:inline-block;
+    border:1px solid var(--sand);
+    color:var(--ivory);
+    font-size:0.68rem;
+    letter-spacing:0.26em;
+    text-transform:uppercase;
+    padding:0.7rem 1.6rem;
+    border-radius:999px;
+  }
+
+  /* ---------- GALLERY ---------- */
+  .gallery{
+    background:var(--stone);
+    padding:13vh 6vw;
+  }
+  .gallery-head{text-align:center;margin-bottom:5rem;}
+  .gallery-head .serif{
+    font-family:'Marcellus', serif;
+    font-style:normal;
+    font-size:clamp(1.5rem,3.6vw,2rem);
+    color:var(--earth);
+    margin-bottom:0.4rem;
+  }
+  .gallery-head .zh{
+    font-family:'Noto Serif TC', serif;
+    color:var(--leather);
+    font-size:0.95rem;
+  }
+  .gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:1.4rem;
+    max-width:72rem;
+    margin:0 auto;
+  }
+  .gallery-grid > div{
+    aspect-ratio:3/4;
+    overflow:hidden;
+    border-radius:2px;
+  }
+  .gallery-grid img{transition:transform 0.7s ease;}
+  .gallery-grid > div:hover img{transform:scale(1.04);}
+  @media (max-width:760px){
+    .gallery-grid{grid-template-columns:1fr 1fr;}
+    .gallery-grid > div:first-child{grid-column:1 / 3;aspect-ratio:4/3;}
+    .nav{padding:1.3rem 5vw;}
+    .nav-wordmark img{height:22px;}
+    .nav-mark img{height:30px;}
+  }
+
+  /* ---------- GIFT MOMENT ---------- */
+  .gift{
+    background:var(--earth);
+    color:var(--ivory);
+    padding:14vh 6vw;
+    text-align:center;
+  }
+  .gift-img{
+    width:min(420px, 80vw);
+    margin:0 auto 3rem;
+    border-radius:2px;
+    overflow:hidden;
+    box-shadow:0 30px 60px -20px rgba(0,0,0,0.45);
+  }
+  .gift-title{
+    font-family:'Marcellus', serif;
+    font-style:normal;
+    font-size:clamp(1.5rem,3.8vw,2.1rem);
+    margin-bottom:0.5rem;
+  }
+  .gift-sub{
+    font-family:'Noto Serif TC', serif;
+    color:var(--sand);
+    font-size:0.95rem;
+    max-width:24rem;
+    margin:0 auto;
+    line-height:1.9;
+  }
+
+  /* ---------- SIGNUP ---------- */
+  .signup{
+    background:var(--sand);
+    padding:14vh 8vw;
+    text-align:center;
+  }
+  .signup-mark{width:34px;height:34px;margin:0 auto 1.6rem;opacity:0.75;}
+  .signup-title{
+    font-family:'Marcellus', serif;
+    font-style:normal;
+    font-size:clamp(1.7rem,4.4vw,2.4rem);
+    color:var(--earth);
+    margin-bottom:0.5rem;
+  }
+  .signup-title-zh{
+    font-family:'Noto Serif TC', serif;
+    font-size:clamp(1rem,2.6vw,1.15rem);
+    color:var(--leather);
+    margin-bottom:1.8rem;
+  }
+  .signup-sub{
+    max-width:26rem;
+    margin:0 auto 2.6rem;
+    font-size:0.92rem;
+    line-height:1.85;
+    color:var(--leather);
+  }
+  form.waitlist-form{
+    display:flex;flex-direction:column;align-items:center;gap:1rem;
+    max-width:24rem;margin:0 auto;
+  }
+  .field-row{display:flex;width:100%;border-bottom:1px solid var(--leather);padding-bottom:0.6rem;}
+  input[type="email"], input[type="text"]{
+    flex:1;background:transparent;border:none;outline:none;
+    font-family:'Poppins', sans-serif;font-size:1rem;color:var(--earth);padding:0.4rem 0.2rem;
+    min-width:0;
+  }
+  input[type="email"]::placeholder, input[type="text"]::placeholder{color:var(--leather);opacity:0.55;}
+  .bday-row{justify-content:center;align-items:center;gap:0.5rem;}
+  .bday-input{flex:none !important;width:3.2rem;text-align:center;}
+  .bday-sep{color:var(--leather);opacity:0.6;}
+  button.submit-btn, a.submit-btn{
+    width:100%;background:var(--earth);color:var(--ivory);border:none;
+    padding:0.95rem 1.4rem;font-family:'Poppins', sans-serif;font-size:0.78rem;
+    letter-spacing:0.22em;text-transform:uppercase;border-radius:999px;cursor:pointer;
+    transition:background 0.3s ease;
+  }
+  button.submit-btn:hover, a.submit-btn:hover{background:var(--leather);}
+  button.submit-btn:focus-visible, a.submit-btn:focus-visible, input:focus-visible{outline:2px solid var(--gold);outline-offset:3px;}
+  .form-note{font-size:0.74rem;color:var(--leather);opacity:0.7;margin-top:0.8rem;}
+  .success-msg{
+    display:none;font-family:'Marcellus', serif;font-style:normal;
+    font-size:1.1rem;color:var(--earth);margin-top:0.5rem;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer{
+    background:var(--earth);color:var(--sand);text-align:center;
+    padding:5vh 6vw 4vh;font-size:0.74rem;letter-spacing:0.08em;
+  }
+  footer .foot-mark{width:30px;height:30px;margin:0 auto 0.7rem;opacity:0.9;}
+  footer .foot-mark img{width:100%;height:100%;object-fit:contain;filter:brightness(0) invert(1);opacity:0.85;}
+  footer .foot-wordmark{
+    width:122px;margin:0 auto 0.6rem;
+  }
+  footer .foot-wordmark img{
+    width:100%;height:auto;object-fit:contain;
+    filter:brightness(0) invert(1);opacity:0.92;
+  }
+  footer a{color:var(--sand);text-decoration:none;border-bottom:1px solid transparent;}
+  footer a:hover{border-bottom-color:var(--sand);}
+  footer .foot-links{margin-top:0.5rem;opacity:0.75;}
+
+  .fade-in{opacity:0;transform:translateY(18px);transition:opacity 0.9s ease, transform 0.9s ease;}
+  .fade-in.visible{opacity:1;transform:translateY(0);}
+
+  @media (prefers-reduced-motion: reduce){
+    .scroll-cue{animation:none;}
+    .fade-in{transition:none;opacity:1;transform:none;}
+  }
+
+  /* ---------- NAV LINKS (functional) ---------- */
+  .nav{pointer-events:auto;}
+  .nav a{color:inherit;text-decoration:none;}
+  .nav a:hover{opacity:0.8;}
+
+  /* ---------- ABOUT: INTRO SPLIT ---------- */
+  .about-hero{
+    display:flex;flex-wrap:wrap;
+    margin-top:64px;
+  }
+  .about-media{flex:1 1 46%;min-width:300px;min-height:78vh;position:relative;}
+  .about-media img{object-position:center 20%;}
+  .about-media::before{
+    content:"";position:absolute;top:0;left:0;right:0;height:140px;
+    background:linear-gradient(180deg, rgba(20,16,12,0.45), rgba(20,16,12,0));
+    pointer-events:none;
+  }
+  .about-media.icon-mark{
+    background:var(--stone);
+    display:flex;align-items:center;justify-content:center;
+    align-self:flex-start;
+    position:sticky;top:0;
+  }
+  .about-media.icon-mark::before{display:none;}
+  .about-media.icon-mark img{
+    width:32%;height:auto;
+    object-fit:contain;object-position:center;
+    opacity:0.92;
+  }
+  .about-intro{
+    flex:1 1 54%;min-width:300px;
+    display:flex;align-items:center;justify-content:center;
+    background:var(--ivory);
+    padding:10vh 7vw;
+  }
+  .about-intro-inner{max-width:28rem;}
+  .about-eyebrow{color:var(--leather);margin-bottom:1.4rem;}
+  .about-title{
+    font-family:'Marcellus', serif;font-style:normal;
+    font-size:clamp(1.9rem,4.4vw,2.6rem);color:var(--earth);
+    margin-bottom:0.5rem;line-height:1.3;
+  }
+  .about-title-zh{
+    font-family:'Noto Serif TC', serif;color:var(--leather);
+    font-size:clamp(1rem,2.4vw,1.15rem);margin-bottom:1.8rem;
+  }
+  .about-body{font-size:0.93rem;line-height:2;color:var(--earth);}
+  .about-body p{margin-bottom:1.3rem;}
+  .about-signature{
+    font-family:'Marcellus', serif;font-style:normal;
+    font-size:1.1rem;color:var(--leather);margin-top:1.5rem;
+  }
+
+  /* ---------- PHILOSOPHY QUOTE ---------- */
+  .quote-block{
+    background:var(--earth);color:var(--ivory);
+    text-align:center;padding:16vh 8vw;
+  }
+  .quote-block p.serif{
+    font-family:'Marcellus', serif;font-style:normal;
+    font-size:clamp(1.5rem,4vw,2.3rem);line-height:1.6;
+    max-width:38rem;margin:0 auto 1.2rem;
+  }
+  .quote-block p.zh{
+    font-family:'Noto Serif TC', serif;color:var(--sand);
+    font-size:clamp(0.92rem,2.3vw,1.05rem);
+  }
+
+  /* ---------- PILLARS ---------- */
+  .pillars{
+    background:var(--stone);
+    padding:13vh 6vw;
+  }
+  .pillars-head{text-align:center;margin-bottom:5rem;}
+  .pillars-head .serif{
+    font-family:'Marcellus', serif;font-style:normal;
+    font-size:clamp(1.5rem,3.6vw,2rem);color:var(--earth);margin-bottom:0.4rem;
+  }
+  .pillars-head .zh{font-family:'Noto Serif TC', serif;color:var(--leather);font-size:0.95rem;}
+  .pillars-grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:3rem;
+    max-width:64rem;margin:0 auto;text-align:center;
+  }
+  .pillar-num{
+    font-family:'Marcellus', serif;font-style:normal;
+    font-size:0.85rem;color:var(--gold);letter-spacing:0.2em;margin-bottom:1rem;
+  }
+  .pillar-title{
+    font-family:'Marcellus', serif;font-style:normal;
+    font-size:1.4rem;color:var(--earth);margin-bottom:0.3rem;
+  }
+  .pillar-title-zh{font-family:'Noto Serif TC', serif;color:var(--leather);font-size:0.9rem;margin-bottom:0.9rem;}
+  .pillar-desc{font-size:0.85rem;line-height:1.85;color:var(--leather);}
+  @media (max-width:760px){
+    .pillars-grid{grid-template-columns:1fr;gap:3.2rem;}
+  }
+  @media (max-width:760px){
+    .about-media.icon-mark{
+      position:static;min-height:0;height:38vh;
+    }
+    .about-media.icon-mark img{width:26%;}
+  }
+
+  /* ---------- CREDENTIAL STRIP ---------- */
+  .credentials{
+    background:var(--ivory);
+    padding:6vh 8vw 13vh;
+    text-align:center;
+  }
+  .credentials-list{
+    display:flex;justify-content:center;gap:2.4rem;flex-wrap:wrap;
+    font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;
+    color:var(--leather);
+  }
+  .credentials-list span{position:relative;}
