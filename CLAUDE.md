@@ -48,6 +48,8 @@ Bilingual: English + Traditional Chinese (繁體中文). The bilingual pairing i
 - **"testament"** in all three places (belief opening, founder story, philosophy pillar 03) — never "proof".
 - **Not loud. Not trendy. Just you.**
 - **A piece symbolizing the moment you became the person you are today.**
+- Philosophy pillar 03 body: **Each piece marks a chapter already lived.**
+- Credential strip: **GIA-TRAINED · DESIGNED IN LOS ANGELES**
 - Founder-quote block keeps **"For the woman she's become"** — the founder speaking about her customer. This is the ONLY place "she's become" appears.
 
 ---
