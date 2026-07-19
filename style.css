@@ -335,7 +335,7 @@ a:focus-visible, button:focus-visible, input:focus-visible{
   margin-top:90px;display:flex;align-items:center;justify-content:center;gap:44px;flex-wrap:wrap;
 }
 .story-sig-photo{
-  width:132px;height:172px;object-fit:cover;object-position:50% 20%;
+  width:132px;height:172px;object-fit:cover;object-position:36% 50%;
   clip-path:ellipse(50% 50% at 50% 50%);flex:none;
 }
 .story-sig-rule{width:1px;height:96px;background:var(--sand);flex:none;}
