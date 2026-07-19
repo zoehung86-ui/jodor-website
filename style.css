@@ -64,6 +64,12 @@ a:focus-visible, button:focus-visible, input:focus-visible{
   padding:22px 56px;
 }
 .nav-mark{display:flex;align-items:center;gap:14px;text-decoration:none;}
+/* Center the wordmark lockup on the page axis (as a middle flex item it
+   skews left because the right link group outweighs the left icon) */
+.nav--home > .nav-wordmark,
+.nav--about .nav-wordmark-link{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+}
 .nav-links{display:flex;align-items:center;gap:28px;}
 .nav-link{
   font-size:11px;letter-spacing:3.5px;text-transform:uppercase;
