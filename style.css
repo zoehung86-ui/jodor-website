@@ -37,7 +37,7 @@ body{
 body.home{background:var(--linen);color:var(--walnut);}
 body.about{background:var(--ivory);color:var(--earth);}
 img{display:block;max-width:100%;}
-a{color:inherit;}
+a{color:inherit;text-decoration:none;}
 
 a:focus-visible, button:focus-visible, input:focus-visible{
   outline:2px solid currentColor;
