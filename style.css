@@ -341,7 +341,7 @@ a:focus-visible, button:focus-visible, input:focus-visible{
   font-family:'Ivy Mode', 'Cormorant', serif;font-weight:300;font-style:italic;
   font-size:25px;line-height:1.45;color:var(--earth);
 }
-.story-sig-signature{height:31px;width:auto;display:block;margin:18px 0 0;}
+.story-sig-signature{height:37px;width:auto;display:block;margin:18px 0 0;}
 .story-sig-name{
   font-family:'Poppins', sans-serif;font-weight:500;font-size:10.5px;
   letter-spacing:0.15em;color:var(--leather);margin-top:12px;
@@ -444,6 +444,7 @@ a:focus-visible, button:focus-visible, input:focus-visible{
   .story-sig-rule{display:none;}
   .story-sig-quote{text-align:center;}
   .story-sig > div:last-child{text-align:center;}
+  .story-sig-signature{margin:18px auto 0;}
   .footer{padding:64px 24px 48px;}
   .foot-links{gap:20px;flex-wrap:wrap;}
 }
