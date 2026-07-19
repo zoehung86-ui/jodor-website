@@ -18,7 +18,7 @@ Keep it simple. No build tools, no frameworks, no localStorage/sessionStorage. V
 ## 🔴 Hard red lines (never cross these)
 
 1. **Honesty about the product.** The hero piece (LPD-01, a pink tourmaline pendant in 14K gold) is **still in production** — it is in CAD/casting, not finished, and no stones have been bought. **Never write copy that implies it physically exists, is finished, or has been worn.** Use future/intent tense ("each stone *will be* chosen by hand"). Any concept render or AI image must be labeled "**Concept · In the making**". The brand's entire promise is *proof / honesty* — protect it.
-2. **Credential discipline.** Founder copy must NOT give a year count (write "years", never "nearly ten years"). Write "**GIA diamond training**" (never "GG" / "Graduate Gemologist"). Write "**designed at** a renowned LA fine jewelry house" — never "senior designer", never borrow seniority, never name former employers.
+2. **Credential discipline.** Founder copy must NOT give a year count (write "years", never "nearly ten years"). Write "**GIA diamond training**" (never "GG" / "Graduate Gemologist"). Write "**designed at** a renowned Hollywood jewelry house" — never "senior designer", never borrow seniority, never name former employers.
 3. **Never become a second-rate Sophie Bille Brahe.** SBB is a mood-board only. Borrow philosophy (restraint, whitespace), never its surface (cool Nordic palette, pearl/astronomy world).
 4. **No discount / sale / urgency language.** No "10% off", no "Last Call", no countdowns. Quiet confidence only. This is calm luxury, not DTC commerce.
 5. **No hard selling, no hype words, no emoji** in customer-facing copy.
@@ -33,12 +33,22 @@ Bilingual: English + Traditional Chinese (繁體中文). The bilingual pairing i
 
 ---
 
-## Locked taglines (use verbatim; do not rewrite)
+## Locked copy — 2026-07-18 canon (use verbatim; do not rewrite)
 
-- Headline: **Golden Touches, Infinite Joy.** / 金色的觸動，無限的喜悅
-- Brand core: **for the woman she's become** / 獻給已然成為的女人  *(use "the", not "every")*
-- Website tagline: **Jewelry for your story, not just your style.**
-- Hero piece line: **The light you pass on.**
+**Homepage**
+- Hero headline: **For the woman you've become.**  *(singular "the", second person "you've" — never "every woman")*
+- Quote: **Something soft, for someone strong.**
+- Hero piece: eyebrow **THE HERO PIECE**, headline **The light you radiate.**
+- Gallery: **Close to you. Every day.**
+- Box moment: **Golden Touches. Infinite Joy.** *(period version)* / 金色的觸動，無限的喜悅
+- Signup: **you're in the circle**
+- Footer line (both pages): **for the woman you've become**
+
+**About**
+- **"testament"** in all three places (belief opening, founder story, philosophy pillar 03) — never "proof".
+- **Not loud. Not trendy. Just you.**
+- **A piece symbolizing the moment you became the person you are today.**
+- Founder-quote block keeps **"For the woman she's become"** — the founder speaking about her customer. This is the ONLY place "she's become" appears.
 
 ---
 

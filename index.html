@@ -1,141 +1,114 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jo D'or — for the woman she's become</title>
+<title>Jo D'or — For the woman you've become.</title>
 <meta name="description" content="Jo D'or — Earth-to-Soul Fine Jewelry. Join the waitlist.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@300;400;500&family=Noto+Serif+TC:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&family=Marcellus&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home">
 
-<nav class="nav">
-  <a href="index.html" class="nav-mark"><img src="img/logo-icon.png" alt="Jo D'or"></a>
-  <a href="index.html" class="nav-wordmark"><img src="img/logo-wordmark.png" alt="Jo D'or Jewelry"></a>
-  <a href="about.html" class="nav-eyebrow">About</a>
+<nav class="nav nav--home">
+  <a href="#top" class="nav-mark"><img src="img/logo-icon.png" alt="Jo D'or"></a>
+  <img class="nav-wordmark" src="img/logo-wordmark.png" alt="Jo D'or Jewelry">
+  <div class="nav-links">
+    <a href="about.html" class="nav-link">About</a>
+    <a href="#signup" class="nav-pill">Join the Waitlist</a>
+  </div>
 </nav>
 
 <!-- ============ HERO ============ -->
-<section class="hero">
-  <div class="hero-img-wrap"><img src="img/hero-mirror.jpg" alt="A woman pausing at her mirror, a quiet golden moment at her collarbone"></div>
+<header class="hero" id="top">
+  <img class="hero-bg" src="img/gold-wave-texture.jpg" alt="Gold wave texture">
   <div class="hero-scrim"></div>
   <div class="hero-content">
-    <p class="eyebrow hero-eyebrow">Golden Touches, Infinite Joy.</p>
-    <p class="hero-title">For the woman<br>she's become.</p>
-  </div>
-  <div class="scroll-cue"></div>
-</section>
-
-<!-- ============ ESSENCE (full gold background) ============ -->
-<section class="essence essence-gold">
-  <div class="essence-overlay"></div>
-  <div class="fade-in essence-inner">
-    <p class="serif">Jewelry as proof of transformation —<br>not a wish, but a becoming.</p>
-  </div>
-</section>
-
-<!-- ============ SIGNATURE PIECE ============ -->
-<section class="signature">
-  <div class="sig-media"><img src="img/pendant-dish.jpg" alt="The Jo D'or hero pendant, pink tourmaline cabochon in 14K gold"></div>
-  <div class="sig-text">
-    <div class="sig-inner fade-in">
-      <p class="eyebrow sig-label">The Hero Piece</p>
-      <p class="sig-title">The light you pass on.</p>
-      <p class="sig-desc">
-        A pink tourmaline cabochon, held in a hand-finished wave of 14K solid gold —
-        hand-selected stone by stone, GIA-trained eye to gem.
-      </p>
-      <span class="sig-badge">Coming Soon</span>
+    <p class="hero-eyebrow">GOLDEN TOUCHES, INFINITE JOY.</p>
+    <h1 class="hero-title">For the woman<br>you've become.</h1>
+    <p class="hero-meta">14K SOLID GOLD &nbsp;&middot;&nbsp; NATURAL GEMSTONES &nbsp;&middot;&nbsp; DESIGNED IN LOS ANGELES</p>
+    <div class="hero-ctas">
+      <a href="#signup" class="btn-hero">JOIN THE WAITLIST</a>
+      <a href="#hero-piece" class="hero-link">SEE THE PIECE</a>
     </div>
   </div>
+</header>
+
+<!-- ============ QUOTE ============ -->
+<section class="quote">
+  <div class="quote-rule" data-reveal></div>
+  <p class="quote-text" data-reveal data-reveal-delay="120">Something soft,<br>for someone strong.</p>
 </section>
 
-<div class="wave-divider flip softened"><img src="img/gold-wave-warm.jpg" alt=""><span class="wave-overlay"></span></div>
+<!-- ============ HERO PIECE ============ -->
+<section class="piece" id="hero-piece">
+  <div class="piece-media">
+    <img src="img/hero-necklace.png" alt="The Jo D'or hero pendant">
+  </div>
+  <div class="piece-text">
+    <p class="piece-eyebrow">THE HERO PIECE</p>
+    <h2 class="piece-title">The light you radiate.</h2>
+    <p class="piece-desc">A pink tourmaline cabochon, held in a hand-finished wave of 14K solid gold &mdash; hand-selected stone by stone, GIA-trained eye to gem.</p>
+    <p class="piece-meta">FIRST RELEASE &nbsp;&middot;&nbsp; LIMITED &nbsp;&middot;&nbsp; COMING SOON</p>
+    <a href="#signup" class="btn-piece">NOTIFY ME FIRST</a>
+  </div>
+</section>
 
-<!-- ============ GALLERY ============ -->
+<!-- ============ WORN GALLERY ============ -->
 <section class="gallery">
-  <div class="gallery-head fade-in">
-    <p class="serif">Close to her. Every day.</p>
-  </div>
-  <div class="gallery-grid fade-in">
-    <div><img src="img/worn-1.jpg" alt="The pendant worn close to the collarbone"></div>
-    <div><img src="img/worn-3.jpg" alt="The pendant worn with linen"></div>
-    <div><img src="img/pendant-macro.jpg" alt="Detail of the pink tourmaline cabochon and gold wave"></div>
+  <h2 class="gallery-title" data-reveal>Close to you. Every day.</h2>
+  <div class="gallery-grid">
+    <div data-reveal><img src="img/worn-1.png" alt="The pendant worn close to the collarbone"></div>
+    <div data-reveal data-reveal-delay="120"><img src="img/worn-3.png" alt="The pendant worn with linen"></div>
+    <div data-reveal data-reveal-delay="240"><img src="img/pendant-macro.png" alt="Detail of the pink tourmaline cabochon"></div>
   </div>
 </section>
 
-<!-- ============ GIFT MOMENT ============ -->
-<section class="gift">
-  <div class="fade-in">
-    <div class="gift-img"><img src="img/box-1.jpg" alt="The Jo D'or necklace in its branded box, engraved Golden Touches, Infinite Joy"></div>
-    <p class="gift-title">Golden Touches. Infinite Joy.</p>
-    <p class="gift-sub">A modern heirloom, from the moment it's opened.</p>
-  </div>
+<!-- ============ BOX ============ -->
+<section class="box">
+  <img class="box-img" data-reveal src="img/box-1.png" alt="The Jo D'or necklace in its branded box">
+  <h2 class="box-title">Golden Touches. Infinite Joy.</h2>
+  <p class="box-sub">A modern heirloom, from the moment it's opened.</p>
 </section>
 
 <!-- ============ SIGNUP ============ -->
 <section class="signup" id="signup">
-  <div class="fade-in">
-    <div class="signup-mark"><img src="img/logo-icon.png" alt="Jo Dor" style="width:100%;height:100%;object-fit:contain;opacity:0.92;"></div>
-    <p class="signup-title">Be the first to receive her.</p>
-    <p class="signup-sub">
-      Join our circle for the story behind each piece, and early access when she's ready.
-    </p>
+  <img class="signup-mark" data-reveal src="img/logo-icon.png" alt="">
+  <h2 class="signup-title" data-reveal data-reveal-delay="150" data-reveal-duration="2.4s">Stay close.</h2>
+  <p class="signup-sub">Join our circle for the story behind each piece, first-release access, and a founding-circle price when she's ready.</p>
 
-    <!-- Mailchimp embedded form (submits inline via hidden iframe, shows the success message below) -->
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-      onload="if(window.mcSubmitted){
-        document.querySelector('.waitlist-form').style.display='none';
-        document.querySelector('.success-msg').style.display='block';
-      }"></iframe>
+  <!-- Mailchimp embedded form (submits inline via hidden iframe, shows the success message below) -->
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" title="hidden"></iframe>
 
-    <form class="waitlist-form" id="waitlist-form"
-      action="https://jodorjewel.us17.list-manage.com/subscribe/post?u=5acc83f4a916216ff8055f179&amp;id=279c95cee9&amp;f_id=00cbe9e0f0"
-      method="post" target="hidden_iframe" onsubmit="window.mcSubmitted=true;" novalidate>
-      <div class="field-row">
-        <input type="email" name="EMAIL" placeholder="Email Address" required>
-      </div>
-      <div class="field-row">
-        <input type="text" name="FNAME" placeholder="First Name">
-      </div>
-      <div class="field-row">
-        <input type="text" name="LNAME" placeholder="Last Name">
-      </div>
-      <div class="field-row bday-row">
-        <input type="text" name="BIRTHDAY[month]" placeholder="MM" maxlength="2" inputmode="numeric" class="bday-input">
-        <span class="bday-sep">/</span>
-        <input type="text" name="BIRTHDAY[day]" placeholder="DD" maxlength="2" inputmode="numeric" class="bday-input">
-      </div>
-      <div style="position:absolute;left:-5000px;" aria-hidden="true">
-        <input type="text" name="b_5acc83f4a916216ff8055f179_279c95cee9" tabindex="-1" value="">
-      </div>
-      <button type="submit" class="submit-btn">Join the Waitlist</button>
-    </form>
-    <p class="success-msg">Thank you — you're on the list.<br>We'll write when there's something real to tell.</p>
+  <form class="waitlist-form" id="waitlist-form"
+    action="https://jodorjewel.us17.list-manage.com/subscribe/post?u=5acc83f4a916216ff8055f179&amp;id=279c95cee9&amp;f_id=00cbe9e0f0"
+    method="post" target="hidden_iframe" novalidate>
+    <input type="email" name="EMAIL" placeholder="Email Address" required>
+    <input type="text" name="FNAME" placeholder="First Name">
+    <div class="honeypot" aria-hidden="true">
+      <input type="text" name="b_5acc83f4a916216ff8055f179_279c95cee9" tabindex="-1" value="">
+    </div>
+    <button type="submit" class="btn-submit">JOIN THE WAITLIST</button>
     <p class="form-note">No spam. Just the story, when there's something real to tell.</p>
+  </form>
+  <div class="success-msg">
+    <p class="success-title">Thank you &mdash; you're in the circle.</p>
+    <p class="success-sub">We'll write when there's something real to tell.</p>
   </div>
 </section>
 
 <!-- ============ FOOTER ============ -->
-<footer>
-  <div class="foot-wordmark"><img src="img/logo-wordmark.png" alt="Jo D'or Jewelry"></div>
-  <div>for every woman she's become</div>
+<footer class="footer">
+  <img class="foot-wordmark" src="img/logo-wordmark.png" alt="Jo D'or Jewelry">
+  <div class="foot-line">for the woman you've become</div>
   <div class="foot-links">
-    jodorjewel.com &nbsp;·&nbsp;
-    <a href="https://instagram.com/jodor.jewelry" target="_blank">@jodor.jewelry</a>
+    <span>JODORJEWEL.COM</span>
+    <a href="https://instagram.com/jodor.jewelry">@JODOR.JEWELRY</a>
   </div>
 </footer>
 
-<script>
-  const faders = document.querySelectorAll('.fade-in');
-  const io = new IntersectionObserver((entries)=>{
-    entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('visible'); });
-  }, {threshold:0.15});
-  faders.forEach(f=>io.observe(f));
-</script>
-
+<script src="site.js"></script>
 </body>
 </html>
