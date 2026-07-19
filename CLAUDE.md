@@ -18,7 +18,7 @@ Keep it simple. No build tools, no frameworks, no localStorage/sessionStorage. V
 ## 🔴 Hard red lines (never cross these)
 
 1. **Honesty about the product.** The hero piece (LPD-01, a pink tourmaline pendant in 14K gold) is **still in production** — it is in CAD/casting, not finished, and no stones have been bought. **Never write copy that implies it physically exists, is finished, or has been worn.** Use future/intent tense ("each stone *will be* chosen by hand"). Any concept render or AI image must be labeled "**Concept · In the making**". The brand's entire promise is *proof / honesty* — protect it.
-2. **Credential discipline.** Founder copy must NOT give a year count (write "years", never "nearly ten years"). Write "**GIA diamond training**" (never "GG" / "Graduate Gemologist"). Write "**designed at** a renowned LA fine jewelry house" — never "senior designer", never borrow seniority, never name former employers.
+2. **Credential discipline.** Founder copy must NOT give a year count (write "years", never "nearly ten years"). Write "**GIA diamond training**" (never "GG" / "Graduate Gemologist"). Write "**designed at** a renowned Hollywood jewelry house" — never "senior designer", never borrow seniority, never name former employers.
 3. **Never become a second-rate Sophie Bille Brahe.** SBB is a mood-board only. Borrow philosophy (restraint, whitespace), never its surface (cool Nordic palette, pearl/astronomy world).
 4. **No discount / sale / urgency language.** No "10% off", no "Last Call", no countdowns. Quiet confidence only. This is calm luxury, not DTC commerce.
 5. **No hard selling, no hype words, no emoji** in customer-facing copy.
