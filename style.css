@@ -240,8 +240,7 @@ a:focus-visible, button:focus-visible, input:focus-visible{
 .box-sub{font-family:'Marcellus', serif;font-size:18px;letter-spacing:1px;color:rgba(240,232,216,0.7);}
 
 /* ---------- Signup ---------- */
-.signup{padding:130px 48px 140px;background:var(--shell);text-align:center;}
-.signup-mark{width:44px;margin:0 auto 28px;}
+.signup{padding:150px 48px 140px;background:var(--shell);text-align:center;}
 .signup-title{
   font-family:'Marcellus', serif;font-weight:400;
   font-size:clamp(32px, 3.2vw, 46px);letter-spacing:0.5px;
@@ -342,9 +341,10 @@ a:focus-visible, button:focus-visible, input:focus-visible{
   font-family:'Ivy Mode', 'Cormorant', serif;font-weight:300;font-style:italic;
   font-size:25px;line-height:1.45;color:var(--earth);
 }
+.story-sig-signature{height:31px;width:auto;display:block;margin:18px 0 0;}
 .story-sig-name{
   font-family:'Poppins', sans-serif;font-weight:500;font-size:10.5px;
-  letter-spacing:0.15em;color:var(--leather);margin-top:14px;
+  letter-spacing:0.15em;color:var(--leather);margin-top:12px;
 }
 
 /* 3 · Philosophy */
@@ -393,8 +393,7 @@ a:focus-visible, button:focus-visible, input:focus-visible{
 }
 
 /* 5 · Stay close */
-.stayclose{padding:140px 48px 150px;background:var(--stone);text-align:center;}
-.stayclose-mark{width:42px;margin:0 auto 34px;}
+.stayclose{padding:160px 48px 150px;background:var(--stone);text-align:center;}
 .stayclose-title{
   font-family:'Ivy Mode', 'Cormorant', serif;font-weight:300;
   font-size:clamp(32px, 3.3vw, 48px);letter-spacing:0.5px;color:var(--earth);margin:0 0 22px;
