@@ -410,7 +410,7 @@ a:focus-visible, button:focus-visible, input:focus-visible{
    ============================================================ */
 @media (max-width: 900px){
   .piece{grid-template-columns:1fr;}
-  .piece-media{min-height:76vw;}
+  .piece-media{min-height:120vw;max-height:560px;}
   .piece-text{padding:72px 32px;}
   .pillars{grid-template-columns:1fr;gap:48px;}
 }
