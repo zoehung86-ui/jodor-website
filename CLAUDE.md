@@ -33,12 +33,22 @@ Bilingual: English + Traditional Chinese (繁體中文). The bilingual pairing i
 
 ---
 
-## Locked taglines (use verbatim; do not rewrite)
+## Locked copy — 2026-07-18 canon (use verbatim; do not rewrite)
 
-- Headline: **Golden Touches, Infinite Joy.** / 金色的觸動，無限的喜悅
-- Brand core: **for the woman she's become** / 獻給已然成為的女人  *(use "the", not "every")*
-- Website tagline: **Jewelry for your story, not just your style.**
-- Hero piece line: **The light you pass on.**
+**Homepage**
+- Hero headline: **For the woman you've become.**  *(singular "the", second person "you've" — never "every woman")*
+- Quote: **Something soft, for someone strong.**
+- Hero piece: eyebrow **THE HERO PIECE**, headline **The light you radiate.**
+- Gallery: **Close to you. Every day.**
+- Box moment: **Golden Touches. Infinite Joy.** *(period version)* / 金色的觸動，無限的喜悅
+- Signup: **you're in the circle**
+- Footer line (both pages): **for the woman you've become**
+
+**About**
+- **"testament"** in all three places (belief opening, founder story, philosophy pillar 03) — never "proof".
+- **Not loud. Not trendy. Just you.**
+- **A piece symbolizing the moment you became the person you are today.**
+- Founder-quote block keeps **"For the woman she's become"** — the founder speaking about her customer. This is the ONLY place "she's become" appears.
 
 ---
 
