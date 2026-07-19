@@ -41,7 +41,7 @@ Bilingual: English + Traditional Chinese (繁體中文). The bilingual pairing i
 - Hero piece: eyebrow **THE HERO PIECE**, headline **The light you radiate.**
 - Gallery: **Close to you. Every day.**
 - Box moment: **Golden Touches. Infinite Joy.** *(period version)* / 金色的觸動，無限的喜悅 — subline **A beautiful arrival, for the woman you've become.**
-- Signup: **you're in the circle** — subline **Be the first to discover each piece, the story behind it, and early access when it's ready.** — form note **Only when there's something meaningful to share.**
+- Signup: **you're in the circle** — subline **Be the first to discover each piece, the story behind it, and early access when it's ready.** — form note **Only when there's something meaningful to share.** — confirmation **Thank you — you're in the circle.** / **The next chapter is on its way.**
 - Footer line (both pages): **for the woman you've become**
 
 **About**
