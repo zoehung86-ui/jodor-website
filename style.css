@@ -322,7 +322,6 @@ a:focus-visible, button:focus-visible, input:focus-visible{
 .story{background:var(--stone);padding:140px 48px;}
 .story-inner{max-width:580px;margin:0 auto;}
 .story-head{text-align:center;margin-bottom:64px;}
-.story-head img{width:30px;margin:0 auto 30px;}
 .story-lede{
   font-family:'Ivy Mode', 'Cormorant', serif;font-weight:300;font-style:italic;
   font-size:clamp(24px, 2.2vw, 31px);line-height:1.6;color:var(--earth);
